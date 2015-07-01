@@ -1,6 +1,6 @@
 #######################################################################
 #                                                                     #
-# Creates a base CentOS image with JBoss Data Virtualization 6.0.0.GA #
+# Creates a base CentOS image with JBoss Data Virtualization 6.1.0.GA #
 #                                                                     #
 #######################################################################
 
@@ -11,7 +11,7 @@ MAINTAINER kpeeples <kpeeples@redhat.com>
 
 ENV WORKING_DIR /opt/jboss
 ENV JBOSS_HOME /opt/jboss/dv/jboss-eap-6.1
-ENV INSTALLER jboss-dv-installer-6.0.0.GA-redhat-4.jar
+ENV INSTALLER jboss-dv-installer-6.1.0.redhat-3.jar
 
 ADD software/$INSTALLER $WORKING_DIR/$INSTALLER
 ADD support/InstallationScript.xml $WORKING_DIR/InstallationScript.xml

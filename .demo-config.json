@@ -8,7 +8,7 @@
   "published":true,
   "prerequisites":"Java VM 1.6 or 1.7, Maven",
   "targetProduct":"JBoss Data Virtualization",
-  "productVersion":"JBoss DV 6.0",
+  "productVersion":"JBoss DV 6.1",
   "technologies": ["Teiid","JBoss EAP","JBoss DV"],
   "links": [ 
     {

@@ -27,7 +27,7 @@ user/user
   
 **STEP 1:** Clone the Repository and Download Data Virtualization  
 -git clone of the repository  
--Put the Data Virutalization Download, jboss-dv-installer-6.0.0.GA-redhat-4.jar, into the software folder  
+-Put the Data Virutalization Download, jboss-dv-installer-6.1.0.redhat-3.jar, into the software folder  
   
 **STEP 2:** Build, start the container and grab the IP which is returned from startng the container  
 -Build Image  
